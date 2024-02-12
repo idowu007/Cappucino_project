@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
                 // )
                 Image.asset("assets/images/arrow-left.png"),
                 const Text(
-                  "Detailss",
+                  "Details",
                   style: TextStyle(
                       fontWeight: FontWeight.bold, fontFamily: 'RobotoMono'),
                 ),

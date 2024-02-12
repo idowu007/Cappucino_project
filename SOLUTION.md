@@ -25,3 +25,4 @@ The `ImageSection` widget is a stateless widget in Flutter that displays an imag
 Dependencies:
 - The images used are in the assets folder
 - the project was emulated and tested on an andriod (Huawei Y8s) phone
+- "Sora" google fonts

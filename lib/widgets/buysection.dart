@@ -55,7 +55,8 @@ class BuySection extends StatelessWidget {
                       style: TextStyle(
                           color: Colors.white,
                           fontSize: 18,
-                          fontFamily: 'Sora'),
+                          fontFamily: 'Sora',
+                          fontWeight: FontWeight.bold),
                     ),
                   ),
                 )

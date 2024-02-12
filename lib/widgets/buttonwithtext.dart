@@ -16,7 +16,10 @@ class ButtonWithText extends StatelessWidget {
                 padding: EdgeInsets.all(8.0),
                 child: Text(
                   'Size',
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                      fontFamily: 'Sora'),
                 ),
               )
             ],
@@ -42,7 +45,10 @@ class ButtonWithText extends StatelessWidget {
                     ),
                   ),
                   onPressed: () {},
-                  child: const Text('S'),
+                  child: const Text(
+                    'S',
+                    style: TextStyle(color: Colors.black),
+                  ),
                 ),
               ),
               SizedBox(
@@ -90,7 +96,10 @@ class ButtonWithText extends StatelessWidget {
                     ),
                   ),
                   onPressed: () {},
-                  child: const Text('L'),
+                  child: const Text(
+                    'L',
+                    style: TextStyle(color: Colors.black),
+                  ),
                 ),
               ),
             ],

@@ -25,11 +25,14 @@ class CappSection extends StatelessWidget {
                       Text(
                         'Cappucino',
                         style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 22),
+                            fontWeight: FontWeight.bold,
+                            fontSize: 22,
+                            fontFamily: 'Sora'),
                       ),
                       Text(
                         'with chocolate',
-                        style: TextStyle(color: Color(0xFFA4A4A4)),
+                        style: TextStyle(
+                            color: Color(0xFFA4A4A4), fontFamily: 'Sora'),
                       )
                     ],
                   ),
@@ -51,11 +54,14 @@ class CappSection extends StatelessWidget {
                           Text(
                             '4.8',
                             style: TextStyle(
-                                fontWeight: FontWeight.bold, fontSize: 20),
+                                fontWeight: FontWeight.bold,
+                                fontSize: 20,
+                                fontFamily: 'Sora'),
                           ),
                           Text(
                             '(230)',
-                            style: TextStyle(color: Colors.grey),
+                            style: TextStyle(
+                                color: Colors.grey, fontFamily: 'Sora'),
                           )
                         ],
                       ),
@@ -63,7 +69,7 @@ class CappSection extends StatelessWidget {
                     Row(
                       children: [
                         Container(
-                            margin: EdgeInsets.fromLTRB(0, 0, 5, 0),
+                            margin: const EdgeInsets.fromLTRB(0, 0, 5, 0),
                             padding: const EdgeInsets.fromLTRB(15, 0, 15, 0),
                             width: 50,
                             height: 45,
@@ -72,8 +78,8 @@ class CappSection extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(15)),
                             child: Image.asset('assets/images/bean3.png')),
                         Container(
-                            margin: EdgeInsets.fromLTRB(10, 0, 0, 0),
-                            padding: EdgeInsets.fromLTRB(15, 0, 15, 0),
+                            margin: const EdgeInsets.fromLTRB(10, 0, 0, 0),
+                            padding: const EdgeInsets.fromLTRB(15, 0, 15, 0),
                             width: 50,
                             height: 45,
                             decoration: BoxDecoration(
